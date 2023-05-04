@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123"
+    }
+  ],
+  "todos": [
+    {
+      "id": "1683095914616",
+      "text": "123",
+      "completed": true
+    },
+    {
+      "id": "1683095918462",
+      "text": "asd",
+      "completed": true
+    },
+    {
+      "id": "1683095921028",
+      "text": "qwe",
+      "completed": false
+    },
+    {
+      "id": "1683189149334",
+      "text": "hel",
+      "completed": false
+    },
+    {
+      "id": "1683194317493",
+      "text": "qwe",
+      "completed": false
+    },
+    {
+      "id": "1683194320670",
+      "text": "qwe",
+      "completed": false
+    }
+  ]
+}

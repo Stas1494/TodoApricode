@@ -1,0 +1,28 @@
+.TodoAdd {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(21, 22, 25, 0.4);
+}
+
+.TodoAdd__modal {
+    position: relative;
+    padding: 40px;
+    background: #22242A;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+}
+
+.TodoAdd__close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}

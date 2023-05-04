@@ -1,0 +1,29 @@
+.TodoItem {
+    display: flex;
+    align-items: center;
+    min-height: 100px;
+    background: #22242A;
+    border-radius: 8px;
+    padding: 32px;
+
+}
+.TodoItem__checkbox {
+    margin-right: 20px;
+    position: relative;
+    input {
+        opacity: 0;
+        scale: 1.5;
+        margin-left: 5px;
+    }
+
+}
+
+.TodoItem__icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.TodoItem__btn {
+    margin-left: auto;
+}

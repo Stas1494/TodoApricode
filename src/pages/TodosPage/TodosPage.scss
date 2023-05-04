@@ -1,0 +1,39 @@
+.TodosPage {
+    position: relative;
+    padding: 56px 30px;
+    min-height: 100vh;
+}
+
+.TodosPage__wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.TodosPage__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.TodosPage__logout{
+    max-width: 200px;
+    background: #393C46;
+}
+
+.TodosPage__title {
+}
+.TodosPage__add {
+    margin-bottom: 20px;
+}
+
+.TodosPage__todos {
+    margin: 20px 0;
+}
+
+.TodosPage__loader {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
