@@ -1,11 +1,8 @@
 import {makeAutoObservable, runInAction} from "mobx";
 import {ITodo, ITodosSchema, queryParamsEnum} from '../types/types'
 import {fetchTodos} from "./fetchTodos";
-import {updateTodos} from "./updateTodos";
 import {postTodo} from "./postTodo";
 import {getFilteredTodos} from "./getFilteredTodos";
-import {getCompletedTodos} from "./getCompletedTodos";
-import {deleteTodo} from "./deleteTodo";
 
 class StoreTodo {
     todosState: ITodosSchema = {
