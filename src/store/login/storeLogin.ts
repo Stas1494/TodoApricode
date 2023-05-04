@@ -48,7 +48,6 @@ class StoreLogin {
                     password: this.loginState.password,
                 }
             );
-            console.log(user)
             runInAction(() => {
                 if (user) {
                     this.authData = user

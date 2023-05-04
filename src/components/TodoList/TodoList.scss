@@ -1,4 +1,5 @@
 .TodoList {
+    line-height: 1.5;
     font-size: 20px;
     display: flex;
     flex-direction: column;
@@ -7,4 +8,10 @@
 
 .TodoList__item {
 
+}
+
+@media (max-width: 620px) {
+    .TodoList {
+        font-size: 14px;
+    }
 }

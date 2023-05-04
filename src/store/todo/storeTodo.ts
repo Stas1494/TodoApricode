@@ -51,7 +51,6 @@ class StoreTodo {
         this.todosState.error = undefined
         try {
             const todos = await fetchTodos();
-            console.log(todos)
             runInAction(() => {
                 if (todos) {
                     this.todosState.todos = todos

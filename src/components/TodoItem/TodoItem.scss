@@ -5,10 +5,10 @@
     background: #22242A;
     border-radius: 8px;
     padding: 32px;
+    gap: 20px;
 
 }
 .TodoItem__checkbox {
-    margin-right: 20px;
     position: relative;
     input {
         opacity: 0;

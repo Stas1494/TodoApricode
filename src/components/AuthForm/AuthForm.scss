@@ -31,3 +31,9 @@
 .AuthForm__button{
     margin-top: 25px;
 }
+
+@media (max-width: 500px) {
+    .AuthForm__wrapper {
+        background: none;
+    }
+}
